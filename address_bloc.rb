@@ -1,1 +1,5 @@
-puts "Welcome to AddressBloc!"
+def Welcome
+  puts "Welcome to AddressBloc!"
+end
+
+Welcome
