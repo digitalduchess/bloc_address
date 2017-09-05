@@ -49,4 +49,8 @@ require "csv"
 
       return nil
     end
+
+    def nuke
+      @entries = []
+    end
 end
