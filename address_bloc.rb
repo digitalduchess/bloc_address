@@ -1,5 +1,8 @@
-def Welcome
-  puts "Welcome to AddressBloc!"
-end
+require_relative 'controllers/menu_controller'
 
-Welcome
+menu = MenuController.new
+
+system "clear"
+puts "Welcome to AddressBloc!"
+
+menu.main_menu
